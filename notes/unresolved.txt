@@ -3,21 +3,7 @@
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
 ImageExists(char*) | rowelink_ui.so
-ScreenIsTouched() | rowelink_ui.so
 Mixer() | rowelink_ui.so
-PlayWave(char*, unsigned short, int, int, int, bool) | rowelink_ui.so
-MeritSound::VolumeManager::SetVolume(MeritSound::ChannelId, int) | rowelink_ui.so
-WorldClass::WaitOnFrame(unsigned long, bool) | rowelink_ui.so
-WorldClass::LoadBmp(char const*, int, float, int, int, bool, bool, Bitmap*) | rowelink_ui.so
-WorldClass::SetBack(Bitmap*, int) | rowelink_ui.so
-WorldClass::SetBack(char const*, int) | rowelink_ui.so
-WorldClass::SetBack(short) | rowelink_ui.so
-WorldClass::DeleteBmp(Bitmap*, unsigned char) | rowelink_ui.so
-WorldClass::NextFrame(unsigned char, unsigned char, bool, bool, bool, bool) | rowelink_ui.so
-WorldClass::PlayMovie(int, unsigned long, void (*)(unsigned char), unsigned char, bool, bool, bool, bool) | rowelink_ui.so
-WorldClass::WorldClass() | rowelink_ui.so
-system_info::SystemInfo::GetInstance() | rowelink_ui.so
-system_info::SystemInfo::IsPlatformION() | rowelink_ui.so
 xml_rowelink::Songs_record::Songs_record(xml_rowelink::Songs_record const&) | rowelink_ui.so
 xml_rowelink::Songs_record::~Songs_record() | rowelink_ui.so
 xml_rowelink::Albums_record::Albums_record(xml_rowelink::Albums_record const&) | rowelink_ui.so
@@ -61,51 +47,6 @@ SongSearchResult::clear() | rowelink_ui.so
 SongSearchResult::SongSearchResult() | rowelink_ui.so
 SongSearchResult::~SongSearchResult() | rowelink_ui.so
 SongSearchResult::operator[](int) | rowelink_ui.so
-List::Push(Group*) | rowelink_ui.so
-List::Clear(unsigned char) | rowelink_ui.so
-List::IsEmpty() | rowelink_ui.so
-List::List(List*) | rowelink_ui.so
 USBIO::EnableWatchdog() | rowelink_ui.so
 USBIO::DisableWatchdog() | rowelink_ui.so
 USBIO::WatchdogEnabled() | rowelink_ui.so
-Bitmap::DeCompress() | rowelink_ui.so
-Bitmap::DeCompress32() | rowelink_ui.so
-Bitmap::ReplaceTrans(bool) | rowelink_ui.so
-Bitmap::CopyFromScreen(int, int, bool) | rowelink_ui.so
-Bitmap::SmackAnimationAdvance(unsigned char) | rowelink_ui.so
-Bitmap::Scale(int, int, unsigned char) | rowelink_ui.so
-Bitmap::GreyBmp() | rowelink_ui.so
-Sprite::DoNextFrame() | rowelink_ui.so
-Sprite::SpriteClick() | rowelink_ui.so
-Sprite::AssignString(String*, unsigned long) | rowelink_ui.so
-Sprite::ChangeString(char const*, unsigned long) | rowelink_ui.so
-Sprite::ClicksEnabled | rowelink_ui.so
-Sprite::EnableAllClicks(unsigned long) | rowelink_ui.so
-Sprite::DisableAllClicks(unsigned long) | rowelink_ui.so
-Sprite::Move(int, int, int, int, int, int, unsigned long, unsigned long, unsigned char) | rowelink_ui.so
-Sprite::Reset() | rowelink_ui.so
-Sprite::DoDraw() | rowelink_ui.so
-Sprite::Enable(unsigned long) | rowelink_ui.so
-Sprite::SetBmp(Bitmap*, unsigned long) | rowelink_ui.so
-Sprite::Signal(Group::SpriteSignalType) | rowelink_ui.so
-Sprite::Signal(SpriteSignal*) | rowelink_ui.so
-Sprite::Disable(unsigned long, bool) | rowelink_ui.so
-Sprite::FadeOut(unsigned long, unsigned long, int, int) | rowelink_ui.so
-Sprite::Message(Group::SpriteSignalType) | rowelink_ui.so
-Sprite::Message(SpriteSignal*) | rowelink_ui.so
-Sprite::ScaleXY(float, float, unsigned long) | rowelink_ui.so
-Sprite::SetCord(float, float, float, unsigned long) | rowelink_ui.so
-Sprite::SetSize(int, int) | rowelink_ui.so
-Sprite::DoCommand(int) | rowelink_ui.so
-Sprite::Sprite(Bitmap*, unsigned long, Sprite*) | rowelink_ui.so
-Sprite::Sprite(Bitmap*, unsigned long, Sprite*) | rowelink_ui.so
-Sprite::~Sprite() | rowelink_ui.so
-Sprite::~Sprite() | rowelink_ui.so
-String::String(char const*, int, char const*, int, signed char, int, int, int, unsigned char, unsigned char, unsigned short) | rowelink_ui.so
-TextUtils::ConvertToMarkup(char const*) | rowelink_ui.so
-MeritSound::VolumeManager::GetVolume(MeritSound::ChannelId) const | rowelink_ui.so
-typeinfo for Sprite | rowelink_ui.so
-vtable for DOSLinuxWorld | rowelink_ui.so
-gfx_driver | rowelink_ui.so
-mouse_x | rowelink_ui.so
-mouse_y | rowelink_ui.so
